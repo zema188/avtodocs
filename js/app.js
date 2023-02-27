@@ -165,7 +165,7 @@ for(let i=0 ; i < nav_icon.length ; i++) {
 
 // Size-control
 window.addEventListener('resize', function(event){
-    if(window.innerWidth > 1023) {
+    if(window.innerWidth > 1123) {
       document.querySelector('.header-m').classList.remove('active')
       for(let i = 0; i < nav_icon.length;i++) {
         nav_icon[i].classList.remove('open')
@@ -182,7 +182,7 @@ window.addEventListener('resize', function(event){
       propelledBtn.setAttribute('btn-name','psm')
     }
 })
-if(window.innerWidth > 1023) {
+if(window.innerWidth > 1123) {
   document.querySelector('.header-m').classList.remove('active')
   for(let i = 0; i < nav_icon.length;i++) {
     nav_icon[i].classList.remove('open')
@@ -348,13 +348,9 @@ const swiper_categories = new Swiper('.categories__swiper', {
         slidesPerView: 2,
         spaceBetween: 30
       },
-      1109: {
+      1350: {
         slidesPerView: 3,
         spaceBetween: 30,
-      },
-      1650: {
-        slidesPerView: 3,
-        spaceBetween: 122,
       }
     }
 })
@@ -388,7 +384,7 @@ const swiper_propelled = new Swiper('.propelled__swiper', {
         slidesPerView: 4,
         spaceBetween: 30,
       },
-      1604: {
+      1750: {
         slidesPerView: 5,
         spaceBetween: 45,
       }
